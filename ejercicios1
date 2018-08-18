@@ -1,0 +1,18 @@
+<?php
+$x=5;
+$y=7;
+$result = ($x <= 5 and $y <> 8);
+if ($result == true) {
+   echo "SIII cumple la condicion";
+}else {
+   echo "NOOO se cumple la condicion";
+}
+/*si el valor de la variable $result es verdadero esto quiere decir
+si la variable $x es menor o igual a 5 
+la variable $y es diferente a 7 
+el resultado sera verdadero y se mostrara el mensaje ()SI SE CUMPLE CONDICION)
+se cumple la condicion en caso de lo contrario se ejecutara la
+sentencia dentro de else (NO SE CUMPLE CONDICION)
+*/
+?>
+ 
